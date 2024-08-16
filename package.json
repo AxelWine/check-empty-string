@@ -1,0 +1,26 @@
+{
+  "name": "check-empty-string",
+  "version": "1.0.0",
+  "description": "Checks and sanitizes strings by removing invisible characters that can be used to try to fool validation systems.",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "empty",
+    "string",
+    "checker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxelWine/check-empty-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AxelWine/check-empty-string/issues"
+  },
+  "author": "Axel Wine Studios",
+  "license": "MIT",
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  }
+}
